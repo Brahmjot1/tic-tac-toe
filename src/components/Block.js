@@ -11,7 +11,7 @@ export default function block({value,onClick})
     style="block o"
   return (
     <div>
-      <button className={style}>{value}</button>
+      <button className={style} onClick={onClick}>{value}</button>
     </div>
   )
 }
